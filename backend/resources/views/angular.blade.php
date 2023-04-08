@@ -16,9 +16,12 @@
   <link rel="apple-touch-icon-precomposed" href="assets/icones/drunk.png"/>
 
   <meta name="theme-color" content="#1976d2">
+  <link rel="manifest" href="manifest.webmanifest">
+  <meta name="theme-color" content="#1976d2">
 <link rel="stylesheet" href="/assets/angular/styles.0e48cf88c53000c5.css"></head>
 <body>
   <app-root>
   </app-root>
-<script src="/assets/angular/runtime.da6785960a1c21e7.js" type="module"></script><script src="/assets/angular/polyfills.12520353619540ef.js" type="module"></script><script src="/assets/angular/scripts.e27f5a0a1881fa6c.js" defer></script><script src="/assets/angular/vendor.f351b10fecd38553.js" type="module"></script><script src="/assets/angular/main.c1ee87ea8efd6f74.js" type="module"></script></body>
+  <noscript>Please enable JavaScript to continue using this application.</noscript>
+<script src="/assets/angular/runtime.da6785960a1c21e7.js" type="module"></script><script src="/assets/angular/polyfills.12520353619540ef.js" type="module"></script><script src="/assets/angular/scripts.e27f5a0a1881fa6c.js" defer></script><script src="/assets/angular/vendor.18470f1c43865cce.js" type="module"></script><script src="/assets/angular/main.91c9b4f6b25c8869.js" type="module"></script></body>
 </html>
