@@ -38,9 +38,7 @@
             ],
             "scripts": [
               "node_modules/quagga/dist/quagga.min.js"
-            ],
-            "serviceWorker": true,
-            "ngswConfigPath": "ngsw-config.json"
+            ]
           },
           "configurations": {
             "local": {
@@ -50,7 +48,7 @@
               "optimization": false,
               "vendorChunk": true,
               "extractLicenses": false,
-              "sourceMap": true,
+              "sourceMap": false,
               "namedChunks": true,
               "fileReplacements": [
                 {
@@ -68,7 +66,7 @@
               "optimization": false,
               "vendorChunk": true,
               "extractLicenses": false,
-              "sourceMap": true,
+              "sourceMap": false,
               "namedChunks": true,
               "fileReplacements": [
                 {
@@ -91,7 +89,7 @@
                 }
               ],
               "optimization": true,
-              "sourceMap": true,
+              "sourceMap": false,
               "outputPath": "../backend/public/assets/angular",
               "baseHref": "/",
               "deployUrl": "/assets/angular/",
@@ -220,7 +218,7 @@
               "optimization": false,
               "vendorChunk": true,
               "extractLicenses": false,
-              "sourceMap": true,
+              "sourceMap": false,
               "namedChunks": true,
               "fileReplacements": [
                 {
@@ -238,7 +236,7 @@
               "optimization": false,
               "vendorChunk": true,
               "extractLicenses": false,
-              "sourceMap": true,
+              "sourceMap": false,
               "namedChunks": true,
               "fileReplacements": [
                 {
@@ -261,7 +259,7 @@
                 }
               ],
               "optimization": true,
-              "sourceMap": true,
+              "sourceMap": false,
               "outputPath": "../backend/public/assets/admin",
               "baseHref": "/",
               "deployUrl": "/assets/admin/",
@@ -272,7 +270,7 @@
               "optimization": false,
               "vendorChunk": true,
               "extractLicenses": false,
-              "sourceMap": true,
+              "sourceMap": false,
               "namedChunks": true,
               "fileReplacements": [
                 {
