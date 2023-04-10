@@ -9,9 +9,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&amp;display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-<link rel="stylesheet" href="/assets/admin/styles.db333842861d91bc.css"></head>
+<link rel="stylesheet" href="/assets/admin/styles.dd431c66ee8edc02.css"></head>
 <body class="mat-typography">
 <script src="https://cdn.jsdelivr.net/npm/ngx-scanner-qrcode@latest/wasm/index.js" crossorigin="anonymous"></script>
   <app-root></app-root>
-<script src="/assets/admin/runtime.67a21befb7c53c7b.js" type="module"></script><script src="/assets/admin/polyfills.cf31124f1f3fa6ac.js" type="module"></script><script src="/assets/admin/scripts.e27f5a0a1881fa6c.js" defer></script><script src="/assets/admin/vendor.c5e8a32d9e812f42.js" type="module"></script><script src="/assets/admin/main.f6c0181c51322622.js" type="module"></script></body>
+<script src="/assets/admin/runtime.67a21befb7c53c7b.js" type="module"></script><script src="/assets/admin/polyfills.e7ce75769eebd1df.js" type="module"></script><script src="/assets/admin/scripts.e27f5a0a1881fa6c.js" defer></script><script src="/assets/admin/vendor.cad5e3f0aa3b3fd9.js" type="module"></script><script src="/assets/admin/main.b2d0baacc8b5963e.js" type="module"></script></body>
 </html>

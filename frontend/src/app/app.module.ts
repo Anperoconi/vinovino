@@ -30,6 +30,7 @@ import { DetailBouteilleComponent } from './detail-bouteille/detail-bouteille.co
 import { NotesComponent } from './notes/notes.component';
 import { CommentaireComponent } from './commentaire/commentaire.component';
 import { ArchiverBouteilleModalComponent } from './archiver-bouteille-modal/archiver-bouteille-modal.component';
+import { ServiceWorkerModule } from '@angular/service-worker';
 
 @NgModule({
   declarations: [
@@ -66,6 +67,12 @@ import { ArchiverBouteilleModalComponent } from './archiver-bouteille-modal/arch
     FormsModule,
     MatSnackBarModule,
     BrowserAnimationsModule,
+    ServiceWorkerModule.register('ngsw-worker.js', {
+      enabled: !isDevMode(),
+      // Register the ServiceWorker as soon as the application is stable
+      // or after 30 seconds (whichever comes first).
+      registrationStrategy: 'registerWhenStable:30000'
+    }),
   ],
   providers: [
     {
