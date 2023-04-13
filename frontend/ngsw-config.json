@@ -22,8 +22,6 @@
       "resources": {
         "files": [
           "/assets/**",
-          "/assets/angular/**",
-          "/assets/angular/assets/**",
           "/*.(svg|cur|jpg|jpeg|png|apng|webp|avif|gif|otf|ttf|woff|woff2)"
         ]
       }
