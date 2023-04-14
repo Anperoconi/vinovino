@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/service-worker/config/schema.json",
-  "index": "assets/angular//index.html",
+  "index": "assets/angular/index.html",
   "assetGroups": [
     {
       "name": "app",
