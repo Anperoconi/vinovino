@@ -74,7 +74,7 @@ import {environment} from "../environments/environment";
     //   // or after 30 seconds (whichever comes first).
     //   registrationStrategy: 'registerWhenStable:30000'
     // }),
-    ServiceWorkerModule.register('ngsw-worker.js', {
+    ServiceWorkerModule.register('assets/angular/ngsw-worker.js', {
       enabled: !isDevMode(),
       // Register the ServiceWorker as soon as the application is stable
       // or after 30 seconds (whichever comes first).
