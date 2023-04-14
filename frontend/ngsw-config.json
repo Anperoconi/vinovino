@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/service-worker/config/schema.json",
-  "index": "assets/angular/index.html",
+  "index": "/index.html",
   "assetGroups": [
     {
       "name": "app",
@@ -8,7 +8,7 @@
       "resources": {
         "files": [
           "/favicon.ico",
-          "/index.html",
+          "assets/angular/index.html",
           "/manifest.webmanifest",
           "/*.css",
           "/*.js"
