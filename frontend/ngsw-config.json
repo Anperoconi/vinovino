@@ -7,11 +7,11 @@
       "installMode": "prefetch",
       "resources": {
         "files": [
-          "/favicon.ico",
-          "/index.html",
-          "/manifest.webmanifest",
-          "/*.css",
-          "/*.js"
+          "/assets/angular/favicon.ico",
+          "/assets/angular/index.html",
+          "/assets/angular/manifest.webmanifest",
+          "/assets/angular/*.css",
+          "/assets/angular/*.js"
         ]
       }
     },
@@ -21,8 +21,8 @@
       "updateMode": "prefetch",
       "resources": {
         "files": [
-          "/assets/**",
-          "/*.(svg|cur|jpg|jpeg|png|apng|webp|avif|gif|otf|ttf|woff|woff2)"
+          "/assets/angular/assets/**",
+          "/assets/angular/*.(svg|cur|jpg|jpeg|png|apng|webp|avif|gif|otf|ttf|woff|woff2)"
         ]
       }
     }
